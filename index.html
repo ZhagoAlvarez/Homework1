@@ -1,88 +1,101 @@
 <html lang="en">
 <head>
-    <meta name="author" content="Santiago Alvarez Alvarez (ZhagoAlvarez)">
+    <meta name="author" content="Santiago Alvarez (ZhagoAlvarez)">
     <meta name="keywords" content="Santiago Alvarez Curriculum Vitae,Santiago Alvarez CV">
     <meta name="description" content="Santiago's CV">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page New</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <title>Santiago Alvarez - CV</title>
 </head>
 <body>
-    <header id="header" Text="center">
+    <div id="outer">
+        <header id="header" text="center">
             <h1 id="title"><b>Santiago Gerardo Álvarez Álvarez</b></h1>
-            <nav id="nav"></nav>
-            <img id="UTNLogo" src="Images/UTNLogo.png" alt="UTNLogo">
-    </header>
-    <main id="main" Text="center">
-        <div id="PersonalInformation">
-            <h2 id="PersonalInformationTitle"><b>Personal Information:</b></h2>
-            <li id="PersonalInformationList" type="CIRCLE">
-                <ol id="DateOfBirth">
-                    Date of birth: 07/06/1993
-                </ol>
-                <ol id="PhoneNumber">
-                    Phone number: (506) 8315 8012
-                </ol>
-                <ol id="PersonalE-mailAddress">
-                    Personal e-mail address: shago5568@gmail.com
-                </ol>
-                <ol id="WorkE-mailAddress">
-                    Work e-mail address: salvarez@aligntech.com
-                </ol>
-                <ol id="HomeAddress">
-                    Home address: Sabanilla, Alajuela, Costa Rica
-                </ol>
-            </li>
-        </div >
+        </header>
+        <main id="main">
+            <div id="PersonalInformation">
+                <h2 id="PersonalInformationTitle"><b>Personal Information:</b></h2>
+                <li type="CIRCLE"><b>Date of birth: </b>07/06/1993</li>
+                <li type="CIRCLE"><b>Phone number: </b>(506) 8315 8012</li>
+                <li type="CIRCLE"><b>Personal e-mail address: </b>shago5568@gmail.com</li>
+                <li type="CIRCLE"><b>Work e-mail address: </b>salvarez@aligntech.com</li>
+                <li type="CIRCLE"><b>Home address: </b>Sabanilla, Alajuela, Costa Rica</li>
+            </div >
             <br>
-        <div id="MainObjective">
-            <p>
-                <b>Main objective:</b> To provide high-quality bilingual engineering service.
-            </p>
-        </div>
+            <div id="MainObjective">
+                <h2 id="MainObjectiveTitle"><b>Main Objective:</b></h2>
+                <p>To provide high-quality bilingual engineering service.</p>
+            </div>
             <br>
-        <div id="Employment">
-            <h2 id="EmploymentTitle"><b>Employment:</b></h2>
-            <li id="EmploymentList" type="CIRCLE">
-                <ol>
-                    (2012-Nowadays) Align Technology, Inc.
-                </ol>
-            </li>
-        </div>
-        <div id="Education">
-            <h2 id="EducationTitle"><b>Education:</b></h2>
-            <li id="EducationList" type="CIRCLE">
-                <ol>
-                    (2006-2010) Bachelor’s Degree Diploma, Liceo Otilio Ulate Blanco High School
-                </ol>
-                <ol>
-                    (2011-2012) Technician Degree in Computer, Instituto Nacional de Aprendizaje
-                </ol>
-                <ol>
-                    (2011-2012) Technician Degree in Conversational English for Call Centers, Instituto Nacional de Aprendizaje
-                </ol>
-                <ol>
-                    (2011-2012) Technician Degree in Conversational English for Call Centers, Instituto Nacional de Aprendizaje
-                </ol>
-                <ol>
-                    (2020-Nowadays) Diplomat Software Engineering (Level 6 of 9), Universidad Técnica Nacional
-                </ol>
-            </li>
-        </div>
-        <div id="FurtherSkills">
-            <h2 id="FurtherSkillsTitle"><b>Education:</b></h2>
-            <li id="FurtherSkillsList" type="CIRCLE">
-                <ol>Customer service-oriented</ol>
-                <ol>Fast learner</ol>
-                <ol>Team-worker </ol>
-                <ol>Command of both Spanish and English (written, oral and listening)</ol>
-                <ol>Trouble-shooting skills</ol>
-            </li>
-        </div>
-    </main>
+            <div id="Employment">
+                <h2 id="EmploymentTitle"><b>Employment:</b></h2>
+                <table id="EmploymentTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Company</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2012-Nowadays</td>
+                            <td>Align Technology, Inc.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div id="Education">
+                <h2 id="EducationTitle"><b>Education:</b></h2>
+                <table id="EducationTable">
+                    <thead>
+                        <tr>
+                            <th><b>Date</b></th>
+                            <th><b>Achivement</b></th>
+                            <th><b>Institution</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2006-2010</td>
+                            <td>Bachelor’s Degree Diploma</td>
+                            <td>Liceo Otilio Ulate Blanco High School</td>
+                        </tr>
+                        <tr>
+                            <td>2011-2012</td>
+                            <td>Technician Degree in Computer</td>
+                            <td>Instituto Nacional de Aprendizaje</td>
+                        </tr>
+                        <tr>
+                            <td>2011-2012</td>
+                            <td>Technician Degree in Conversational English for Call Centers</td>
+                            <td>Instituto Nacional de Aprendizaje</td>
+                        </tr>
+                        <tr>
+                            <td>2020-Nowadays</td>
+                            <td>Diplomat Software Engineering (Level 6 of 9)</td>
+                            <td> Universidad Técnica Nacional</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div id="FurtherSkills">
+                <h2 id="FurtherSkillsTitle"><b>FurtherSkills:</b></h2>
+                <li type="CIRCLE">Customer service-oriented</li>
+                <li type="CIRCLE">Fast learner</li>
+                <li type="CIRCLE">Team-worker</li>
+                <li type="CIRCLE">Command of both Spanish and English (written, oral and listening)</li>
+                <li type="CIRCLE">Trouble-shooting skills</li>
+            </div>
+        </main>
+    </div>
+    
     <footer id="footer">
-        <p>ISW-512 Diseño de Aplicaciones Web</p> 
-    </footer>   
+        <img id="UTNLogo" src="Images/UTNLogo.png" alt="UTNLogo">
+        <p><b>ISW-512 Diseño de Aplicaciones Web</b></p>
+    </footer>
 </body>
 </html>
